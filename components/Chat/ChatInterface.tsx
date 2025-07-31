@@ -5,7 +5,7 @@ import { useState, useEffect, useRef, useCallback } from "react";
 import { ChatHeader } from "./ChatHeader";
 import { ChatMessages } from "./ChatMessages";
 import { ChatInputForm } from "./ChatInputForm";
-import { CustomToast } from "../CustomToast";
+import { CustomToast } from "../CustomToast/CustomToast";
 import { DeleteConfirmationModal } from "../Modal/DeleteConfirmationModal";
 import { RenameModal } from "../Modal/RenameModal";
 import { AppSidebar } from "../Sidebar/Sidebar";

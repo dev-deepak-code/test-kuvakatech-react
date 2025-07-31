@@ -200,7 +200,7 @@ export function ChatMessages({
           <div
             className={`${theme === "dark" ? "bg-brand-secondary-dark border-border-dark text-text-primary-dark" : "bg-brand-secondary border-border-light text-text-secondary"} rounded-2xl p-3 text-base`}
           >
-            AI Assistant is typing...
+            Gemini is typing...
           </div>
         </div>
       )}

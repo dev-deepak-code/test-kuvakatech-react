@@ -37,7 +37,7 @@ export function ChatInputForm({
   return (
     <div className="p-4 max-w-3xl mx-auto w-full">
       <div
-        className={`rounded-2xl border shadow-md p-6 ${
+        className={`rounded-2xl border shadow-md p-3 ${
           theme === "dark"
             ? "bg-card-dark border-border-dark"
             : "bg-card-light border-border-light"
@@ -79,7 +79,7 @@ export function ChatInputForm({
             onChange={(e) => setInput(e.target.value)}
             placeholder="Message AI Assistant..."
             disabled={isLoading}
-            className={`w-full h-16 px-4 py-3 text-base focus:outline-none disabled:cursor-not-allowed disabled:opacity-50 rounded-xl ${
+            className={`w-full h-10 px-3 py-2 text-base focus:outline-none disabled:cursor-not-allowed disabled:opacity-50 rounded-xl ${
               theme === "dark"
                 ? "bg-card-dark text-text-primary-dark"
                 : "bg-card-light text-text-primary"

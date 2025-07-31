@@ -97,7 +97,8 @@ ai-chat-otp-auth/
 │   │   └── RenameModal.tsx
 │   ├── Sidebar/                  # Chat sidebar
 │   │   └── Sidebar.tsx           # Chat list and management
-│   └── CustomToast.tsx           # Toast notifications
+│   ├── CustomToast/              # Toast notifications
+│   │   └── CustomToast.tsx       # Toast notifications
 ├── hooks/                        # Custom React hooks
 │   └── use-toast.ts              # Toast management hook
 ├── utils/                        # Utility functions

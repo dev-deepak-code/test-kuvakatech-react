@@ -4,7 +4,7 @@ A modern, responsive AI chat application with secure phone-based OTP authenticat
 
 ## 🌟 Live Demo
 
-**Live Application:** [Deploy your app and add the link here]
+**Live Application:** https://test-kuvakatech-react.vercel.app/
 
 ## 📋 Project Overview
 
@@ -42,7 +42,7 @@ We chose to create this Gemini-inspired interface because:
 1. **Clone the repository**
 
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/dev-deepak-code/test-kuvakatech-react.git
    cd ai-chat-otp-auth
    ```
 
